@@ -7,4 +7,4 @@ CONFIG = {
 		'--timeout=60',
 		'hello:app',
 		},
-	}
+}
