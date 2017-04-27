@@ -1,4 +1,4 @@
-def application(env, start_response):
+def app(env, start_response):
 	params = [bytes(i + '\r\n', 'ascii') for i in env['QUERY_STRING'].split('&')]
 	body = []
 	status = '200 OK'
